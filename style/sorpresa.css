@@ -1,0 +1,212 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../imagenes/fondo_sorpresa.png');
+  background-size: auto;
+  background-position: center center;
+}
+
+#titulo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1.animate__backInDown {
+  font-family: 'Carter One', cursive;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, rgb(142, 63, 199), violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  font-size: 2.1rem;
+  margin: 2rem 1rem;
+  padding: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#titulo p{
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Agdasima', sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+  margin: 1rem 1rem;
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+.deseo{
+  font-family: 'Carter One', cursive;
+  color: #ffffff;
+}
+.torta {
+  position: relative;
+  width: 300px;
+}
+
+.torta img {
+  width: 100%;
+}
+
+.btn-soplar {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #FF4500;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.carousel-item img {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#carouselExample{
+  padding: 1rem;
+  margin: 2rem 0.5rem;
+}
+
+
+.contenedor-sorpresa {
+  text-align: center;
+  color: #000000;
+  font-family: 'Aoboshi One', serif;
+  margin: 1rem;
+}
+
+.contenedor-sorpresa h1{
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'Luckiest Guy', cursive;
+}
+.contenedor-sorpresa h2{
+  font-size: 1rem;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.contenedor-sorpresa h4{
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-family: 'Aoboshi One', serif;
+}
+
+.contenedor-sorpresa p{
+  font-family: 'Aoboshi One', serif;
+  text-align: center;
+}
+
+.contenedor-sorpresa button {
+  border: #000000 2px solid;
+  border-radius: 1rem;
+  background-color: inherit;
+}
+.contenedor-sorpresa button img{
+  width: 3rem;
+}
+
+.contenedor_sorp {
+  border: 0.2rem solid rgb(30, 31, 31);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 0.5rem;
+}
+
+.contenedor_sorpresa1 {
+  background: radial-gradient(circle, rgba(233,9,9,1) 0%, rgba(250,191,12,1) 35%, rgba(228,18,96,1) 100%);
+}
+#resultado1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contenedor_sorpresa2{
+  background: radial-gradient(circle, rgba(240,215,46,1) 0%, rgba(209,250,12,1) 35%, rgba(228,194,18,1) 100%);
+}
+#resultado2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contenedor_sorpresa3{
+  background: radial-gradient(circle, rgba(96,207,68,1) 0%, rgba(206,255,104,1) 35%, rgba(63,199,31,1) 100%);
+}
+#resultado3 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contenedor_sorpresa4{
+  background: radial-gradient(circle, rgba(68,207,203,1) 0%, rgba(37,47,185,1) 35%, rgba(31,138,235,1) 100%);
+}
+#resultado4 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#mensaje, #resultado {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.oculto {
+  display: none;
+}
+
+#botonesFinales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+#reiniciar{
+  border: 2px solid black;
+  border-radius: 0.3rem;
+  background-color: rgb(243, 105, 186);
+  font-family: 'Chakra Petch', sans-serif;
+  padding: 0.5rem;
+}
+
+#reiniciar:hover{
+  transform: scale(1.1);
+  background-color: rgb(224, 35, 145);
+}
+
+#salir{
+  border: 2px solid black;
+  border-radius: 0.3rem;
+  background-color: rgb(255, 12, 12);
+  font-family: 'Chakra Petch', sans-serif;
+  padding: 0.5rem;
+}
+
+#salir:hover{
+  transform: scale(1.1);
+  background-color: rgb(192, 16, 16);
+}
+
+
+.contenedor-torta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.titulo {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+
+  
