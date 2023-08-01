@@ -7,7 +7,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+    height: 100vh; /* Establece la altura del cuerpo al 100% de la ventana */
+    margin: 0;
 }
 
 body::after {
@@ -26,6 +27,7 @@ body::after {
 .container {
     text-align: center;
     margin-top: 100px;
+    height: 100%;
 }
 
 .container h1, .container h2{
